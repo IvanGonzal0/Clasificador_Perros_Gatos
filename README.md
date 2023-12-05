@@ -1,6 +1,16 @@
 # Proyecto de Clasificación de Gatos y Perros
 
 Este proyecto utiliza TensorFlow y Keras para crear un modelo de clasificación de imágenes de gatos y perros. El objetivo es entrenar un modelo que pueda distinguir entre imágenes de gatos y perros.
+Las librerías necesarias para el desarrollo son:
+
+```
+import tensorflow as tf
+from keras import layers, models
+import os
+import numpy as np
+import cv2
+import random
+```
 
 ## Descripción del Proyecto
 
